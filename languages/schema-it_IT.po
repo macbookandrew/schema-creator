@@ -198,8 +198,8 @@ msgid "Internet Marketing Tools for SEO and Social Media"
 msgstr "Internet Marketing Tools for SEO and Social Media"
 
 #: schema-creator.php:776 schema-creator.php:945 schema-creator.php:1009
-msgid "P.O. Box:"
-msgstr "P.O. Box:"
+msgid "PO Box"
+msgstr "PO Box"
 
 #: schema-creator.php:809 schema-creator.php:1044
 msgid "Phone:"
@@ -645,8 +645,8 @@ msgstr "Indirizzo"
 
 #: schema-creator.php:1876
 #, fuzzy
-msgid "P.O. Box"
-msgstr "P.O. Box"
+msgid "PO Box"
+msgstr "PO Box"
 
 #: schema-creator.php:1881
 msgid "City"

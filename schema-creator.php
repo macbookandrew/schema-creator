@@ -803,7 +803,7 @@ if ( !class_exists( "RavenSchema" ) ) :
 					$sc_build .= '<div class="street" property="schema:streetAddress">'.$street.'</div>';
 
 				if(!empty($pobox))
-					$sc_build .= '<div class="pobox">'.__('P.O. Box:', 'schema' ).' <span property="schema:postOfficeBoxNumber">'.$pobox.'</span></div>';
+					$sc_build .= '<div class="pobox">'.__('PO Box', 'schema' ).' <span property="schema:postOfficeBoxNumber">'.$pobox.'</span></div>';
 
 				if(!empty($city) && !empty($state)) :
 					$sc_build .= '<div class="city_state">';
@@ -972,7 +972,7 @@ if ( !class_exists( "RavenSchema" ) ) :
 					$sc_build .= '<div class="street" property="schema:streetAddress">'.$street.'</div>';
 
 				if(!empty($pobox))
-					$sc_build .= '<div class="pobox">'.__('P.O. Box:', 'schema' ).' <span property="schema:postOfficeBoxNumber">'.$pobox.'</span></div>';
+					$sc_build .= '<div class="pobox">'.__('PO Box', 'schema' ).' <span property="schema:postOfficeBoxNumber">'.$pobox.'</span></div>';
 
 				if(!empty($city) && !empty($state)) {
 					$sc_build .= '<div class="city_state">';
@@ -1036,7 +1036,7 @@ if ( !class_exists( "RavenSchema" ) ) :
 					$sc_build .= '<div class="street" property="schema:streetAddress">'.$street.'</div>';
 
 				if(!empty($pobox))
-					$sc_build .= '<div class="pobox">'.__('P.O. Box:', 'schema' ).' <span property="schema:postOfficeBoxNumber">'.$pobox.'</span></div>';
+					$sc_build .= '<div class="pobox">'.__('PO Box', 'schema' ).' <span property="schema:postOfficeBoxNumber">'.$pobox.'</span></div>';
 
 				if(!empty($city) && !empty($state)) {
 					$sc_build .= '<div class="city_state">';
@@ -1905,7 +1905,7 @@ if ( !class_exists( "RavenSchema" ) ) :
 					</div>
 
 					<div id="sc_pobox" class="sc_option" style="display:none">
-						<label for="schema_pobox"><?php _e('P.O. Box', 'schema'); ?></label>
+						<label for="schema_pobox"><?php _e('PO Box', 'schema'); ?></label>
 						<input type="text" name="schema_pobox" class="form_third schema_numeric" value="" id="schema_pobox" />
 					</div>
 
