@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Schema Creator by Raven
-Plugin URI: http://schema-creator.org/?utm_source=wp&utm_medium=plugin&utm_campaign=schema
+Plugin URI: https://github.com/macbookandrew/schema-creator
 Description: Insert schema.org microdata into posts and pages
-Version: 1.1.1
+Version: 1.1.1a
 Author: Raven Internet Marketing Tools
 Author URI: http://raventools.com/?utm_source=wp&utm_medium=plugin&utm_campaign=schema
 Text Domain: schema
