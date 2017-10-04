@@ -808,13 +808,13 @@ if ( !class_exists( "RavenSchema" ) ) :
 				if(!empty($city) && !empty($state)) :
 					$sc_build .= '<div class="city_state">';
 					$sc_build .= '<span class="locale" property="schema:addressLocality">'.$city.'</span>,';
-					$sc_build .= '<span class="region" property="schema:addressRegion">'.$state.'</span>';
+					$sc_build .= '<span class="region" property="schema:addressRegion"> '.$state.'</span>';
 					$sc_build .= '</div>';
 				// secondary check if one part of city / state is missing to keep markup consistent
 				elseif(empty($state) && !empty($city) ) :
 					$sc_build .= '<div class="city_state"><span class="locale" property="schema:addressLocality">'.$city.'</span></div>';
 				elseif(empty($city) && !empty($state) ) :
-					$sc_build .= '<div class="city_state"><span class="region" property="schema:addressRegion">'.$state.'</span></div>';
+					$sc_build .= '<div class="city_state"><span class="region" property="schema:addressRegion"> '.$state.'</span></div>';
 				endif;
 
 				if(!empty($postalcode))
@@ -986,7 +986,7 @@ if ( !class_exists( "RavenSchema" ) ) :
 						$sc_build .= '<div class="city_state"><span class="locale" property="schema:addressLocality">'.$city.'</span></div>';
 
 					if(empty($city) && !empty($state) )
-						$sc_build .= '<div class="city_state"><span class="region" property="schema:addressRegion">'.$state.'</span></div>';
+						$sc_build .= '<div class="city_state"><span class="region" property="schema:addressRegion"> '.$state.'</span></div>';
 
 				if(!empty($postalcode))
 					$sc_build .= '<div class="postalcode" property="schema:postalCode">'.$postalcode.'</div>';
@@ -1050,7 +1050,7 @@ if ( !class_exists( "RavenSchema" ) ) :
 						$sc_build .= '<div class="city_state"><span class="locale" property="schema:addressLocality">'.$city.'</span></div>';
 
 					if(empty($city) && !empty($state) )
-						$sc_build .= '<div class="city_state"><span class="region" property="schema:addressRegion">'.$state.'</span></div>';
+						$sc_build .= '<div class="city_state"><span class="region" property="schema:addressRegion"> '.$state.'</span></div>';
 
 				if(!empty($postalcode))
 					$sc_build .= '<div class="postalcode" property="schema:postalCode">'.$postalcode.'</div>';
